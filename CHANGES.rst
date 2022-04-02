@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+0.8.5 (2022-03-30)
+------------------
+* forked from pytries/datrie .
+* rename ant-datrie
+* Fix Decode string based on byteorder of system
+* Adjust TrieBase load
+
 0.8.2 (2020-03-25)
 ------------------
 * Future-proof Python support by making cython a build time dependency and

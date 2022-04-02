@@ -46,14 +46,14 @@ ext_modules = cythonize(
 for m in ext_modules:
     m.include_dirs=[LIBDATRIE_DIR]
 
-setup(name="datrie",
-      version="0.8.3.1",
+setup(name="ant-datrie",
+      version="0.8.5",
       description=DESCRIPTION,
       long_description=LONG_DESCRIPTION,
-      author='Mikhail Korobov',
-      author_email='kmike84@gmail.com',
+      author='zyw',
+      author_email='zyw516@gmail.com',
       license=LICENSE,
-      url='https://github.com/kmike/datrie',
+      url='https://github.com/zyw516/ant-datrie',
       classifiers=CLASSIFIERS,
       libraries=[('datrie', {
           "sources": LIBDATRIE_FILES,
